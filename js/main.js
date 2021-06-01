@@ -73,11 +73,9 @@ document.getElementById("cardFiveTerm").onclick = function flip (){
                 }
                 counterFive++;
                 }
-                document.getElementById("hideMeButton").onclick = function flip (){
-                    var x = document.getElementById("hideMe");
-                    if (x.style.display === "none") {
-                      x.style.display = "block";
-                    } else {
-                      x.style.display = "none";
-                    }
-                  }
+$(document).ready(function() {
+                    var hide = $('#hideMe');
+$('#hideMeButton').on('click', function() {
+                hide.fadeToggle();  
+            });
+        });
