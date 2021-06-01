@@ -72,10 +72,11 @@ p {
   width: auto;
 }
 .centerMe {
-  padding: 50px;
+  padding: 2%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: right;
+  justify-content: right;
+  float: left;
 }
 .makeTextInputSmaller {
   width: 100%;
@@ -94,6 +95,41 @@ p.button:active {
   align-items: center;
   justify-content: center;
 }
+#cardTwoTerm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cardThreeTerm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cardFourTerm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cardFiveTerm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hideMeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hideMeButton.hide {
+  opacity: 0;
+}
+.makeMeSomeSpaceTwo {
+  justify-content: center;
+  margin: auto;
+  margin-left: 44%;
+  transition: all 0.5s linear;
+}
+
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */

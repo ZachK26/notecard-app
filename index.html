@@ -14,7 +14,7 @@
   </head>
   <body style="font-family: 'Montserrat', sans-serif">
     <h1>Enter 5 terms and definitions to study</h1>
-    <div>
+    <div id="hideMe">
       <!--set 1-->
       <div class="makeMeSomeSpace">
         <input
@@ -37,13 +37,13 @@
       <div class="makeMeSomeSpace">
         <input
           type="text"
-          name="termTwo"
+          id="termTwo"
           placeholder="Term"
           class="makeTextInputSmaller"
         />
         <input
           type="text"
-          name="definitionTwo"
+          id="definitionTwo"
           placeholder="Definition"
           class="makeTextInputSmaller"
         />
@@ -55,13 +55,13 @@
       <div class="makeMeSomeSpace">
         <input
           type="text"
-          name="termThree"
+          id="termThree"
           placeholder="Term"
           class="makeTextInputSmaller"
         />
         <input
           type="text"
-          name="definitionThree"
+          id="definitionThree"
           placeholder="Definition"
           class="makeTextInputSmaller"
         />
@@ -73,13 +73,13 @@
       <div class="makeMeSomeSpace">
         <input
           type="text"
-          name="termFour"
+          id="termFour"
           placeholder="Term"
           class="makeTextInputSmaller"
         />
         <input
           type="text"
-          name="definitionFour"
+          id="definitionFour"
           placeholder="Definition"
           class="makeTextInputSmaller"
         />
@@ -91,13 +91,13 @@
       <div class="makeMeSomeSpace">
         <input
           type="text"
-          name="termFive"
+          id="termFive"
           placeholder="Term"
           class="makeTextInputSmaller"
         />
         <input
           type="text"
-          name="definitionFive"
+          id="definitionFive"
           placeholder="Definition"
           class="makeTextInputSmaller"
         />
@@ -106,12 +106,47 @@
         </p>
       </div>
     </div>
+    <div class="centerContainer makeMeSomeSpaceTwo">
+      <p>
+        <a href="#" id="hideMeButton" class="glow-button button"
+          >Toggle Input Chart</a
+        >
+      </p>
+    </div>
     <div class="centerMe noselect">
       <p
         id="cardOneTerm"
         class="flipper button glow-button centerContainer"
       ></p>
     </div>
+
+    <div class="centerMe noselect">
+      <p
+        id="cardTwoTerm"
+        class="flipper button glow-button centerContainer"
+      ></p>
+    </div>
+    <div class="centerMe noselect">
+      <p
+        id="cardThreeTerm"
+        class="flipper button glow-button centerContainer"
+      ></p>
+    </div>
+
+    <div class="centerMe noselect">
+      <p
+        id="cardFourTerm"
+        class="flipper button glow-button centerContainer"
+      ></p>
+    </div>
+
+    <div class="centerMe noselect">
+      <p
+        id="cardFiveTerm"
+        class="flipper button glow-button centerContainer"
+      ></p>
+    </div>
+
     <script src="main.js"></script>
   </body>
 </html>
