@@ -1,0 +1,96 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: url("1m2.jpg");
+  background-size: 1920px;
+}
+
+.makeMeSomeSpace {
+  padding: 30px;
+  background-color: white;
+  display: block;
+  height: 10%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  min-width: 250px;
+}
+.changeSizeOfInput {
+  font-size: 20px;
+  height: 10%;
+  width: 5%;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+a.button {
+  padding: 3px;
+  cursor: pointer;
+  width: 18%;
+  background-color: rgb(10, 10, 10, 0.7);
+  border: 2px outset l#2d2d2d;
+  cursor: default;
+  font-size: 13px;
+  border-radius: 6px;
+  color: whitesmoke;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+a.button:active {
+  border-style: inset;
+}
+.glow-button:hover {
+  cursor: pointer;
+  background-color: rgb(97, 97, 97, 0.7);
+  transform: scaley(1.05);
+  transform-origin: bottom;
+}
+.glow-button:hover:hover p {
+  transform: scalex(1.1);
+}
+.flipper {
+  display: block;
+  float: center;
+  text-align: center;
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+  background-color: whitesmoke;
+}
+.flipper:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 1);
+  transform: scaley(1.01);
+  transform-origin: bottom;
+}
+p {
+  height: auto;
+  width: auto;
+}
+.centerMe {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.makeTextInputSmaller {
+  width: 100%;
+}
+p.button {
+  transition: all 0.2s ease-in-out;
+}
+p.button:active {
+  border-style: inset;
+}
+.centerContainer {
+  vertical-align: center;
+}
+#cardOneTerm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
