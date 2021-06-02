@@ -8,9 +8,8 @@ body {
 
 .makeMeSomeSpace {
   padding: 30px;
-  background-color: white;
+  background-color: whitesmoke;
   display: block;
-
   float: left;
 }
 .changeSizeOfInput {
@@ -122,6 +121,7 @@ p.button {
   margin: auto;
   margin-left: 44%;
   transition: all 0.5s linear;
+  border-radius: 10px;
 }
 #hideMe {
   padding: 54px;
@@ -130,6 +130,9 @@ p.button {
   justify-content: center;
   align-items: center;
   width: 90%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  height: 100px;
 }
 
 .noselect {
